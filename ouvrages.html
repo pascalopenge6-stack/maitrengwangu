@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ouvrages Publiés - Maître Barthélemie Ngwangu</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#0a0c10",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+    .menu {
+            background-color: #101622;
+            padding: 15px 0;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }   
+
+        .menu a {
+            color: #289bcd;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 14px;
+            border-radius: 6x;
+            transition: 0.3s;
+        }   
+
+        .menu a:hover {
+            background-color: #101622;
+            color: rgb(178, 225, 240);
+        }
+
+        .menu a.active {
+            background-color: #101622;
+            color: rgb(102, 203, 240);
+           }
+        body {
+            font-family: 'Public Sans', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .book-glow {
+            box-shadow: 0 0 25px -5px rgba(17, 82, 212, 0.4);
+        }
+        .glass-nav {
+            background: rgba(10, 12, 16, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white min-h-screen">
+<!-- Top App Bar -->
+<nav class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-white/5">
+<div class="flex items-center justify-between px-4 h-16 max-w-md mx-auto">
+    <a href="domaine.html">
+<button class="flex items-center justify-center size-10 rounded-full hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-white">arrow_back_ios_new</span>
+</button>
+</a>
+<h1 class="text-white text-lg font-bold tracking-tight">Ouvrages Publiés</h1>
+<button class="flex items-center justify-center size-10 rounded-full hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-white">search</span>
+</button>
+</div>
+</nav>
+<main class="pt-20 pb-24 max-w-md mx-auto px-4">
+    <nav class="menu">
+        <ul>
+            <li><a href="accueil.html"
+    class="active">Accueil</a></li>
+            <li><a href="à propos.html"
+    class="active">àpropos</a></li>
+            <li><a href="domaine.html"
+    class="active">domaine</a></li>
+            <li><a href="formation.html"
+    class="active">formation</a></li>
+            <li><a href="ouvrages.html"
+    class="active">ouvrages</a></li>
+            <li><a href="contact.html"
+    class="active">contact</a></li>
+            </ul>
+        </nav>
+<!-- Headline Section -->
+<header class="py-6">
+<h2 class="text-white text-3xl font-bold leading-tight mb-2">Bibliothèque Juridique</h2>
+<p class="text-slate-400 text-sm leading-relaxed">
+                Découvrez les publications de référence de <span class="text-primary font-semibold">Maître Barthélemie Ngwangu</span>, Avocat à la Cour d'appel, sur la procédure judiciaire congolaise.
+            </p>
+</header>
+<!-- Featured Book (The Hero) -->
+<section class="mb-10">
+<div class="relative group">
+<div class="absolute -inset-1 bg-gradient-to-r from-primary/30 to-blue-900/30 rounded-xl blur-lg opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+<div class="relative flex flex-col bg-[#161b26] rounded-xl overflow-hidden border border-white/10">
+<div class="w-full aspect-[4/5] bg-center bg-contain bg-no-repeat bg-[length:50%] book-glow" data-alt="Legal book cover with blue lighting accents" style='background-image: url("Incortournable.jpg");'>
+<div class="absolute top-4 right-4">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-widest shadow-lg">Incontournable</span>
+</div>
+</div>
+<div class="p-5">
+<h3 class="text-white text-xl font-bold leading-tight mb-2">Guide pratique des actes de procédure judiciaire congolais</h3>
+<p class="text-slate-400 text-sm mb-4">Une analyse exhaustive des actes de procédure, enrichie par des décennies d'expérience devant les hautes juridictions.</p>
+<div class="flex gap-8">
+    <a href="contact.html" class="flex-1">
+<button class="w-full bg-primary text-white py-6 py-2 rounded-lg text-sm font-semibold hover:bg-primary/90 transition-colors">Commander</button>
+    </a>
+    <a href="domaine.html">
+<button class="px-6 py-4 border border-white/30 text-white rounded-lg text-sm font-medium hover:bg-white/1 transition-colors">Détails</button>
+    </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Other Works List -->
+<section class="space-y-6">
+<h3 class="text-white/60 text-xs font-bold uppercase tracking-widest mb-4">Autres Publications</h3>
+<!-- Card 2 -->
+<div class="flex gap-4 bg-[#161b26]/50 p-3 rounded-xl border border-white/5 items-center">
+<div class="w-24 h-32 shrink-0 bg-center bg-cover rounded-lg shadow-lg border border-white/10" data-alt="Modern law book cover on dark background" style='background-image: url("Incidents.jpg");'></div>
+<div class="flex flex-col justify-between py-1 h-full">
+<div>
+<h4 class="text-white font-bold text-base leading-snug mb-1">Les incidents de procédures judiciaires</h4>
+<p class="text-slate-500 text-xs line-clamp-2">Maîtriser les aléas procéduraux devant les cours et tribunaux de la RDC.</p>
+</div>
+<div class="mt-2">
+<button class="text-primary text-xs font-bold flex items-center gap-1 group">
+                            Consulter <span class="material-symbols-outlined text-[14px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="flex gap-4 bg-[#161b26]/50 p-3 rounded-xl border border-white/5 items-center">
+<div class="w-24 h-32 shrink-0 bg-center bg-cover rounded-lg shadow-lg border border-white/10" data-alt="Old aesthetic law book cover" style='background-image: url("Techniques.jpg");'></div>
+<div class="flex flex-col justify-between py-1 h-full">
+<div>
+<h4 class="text-white font-bold text-base leading-snug mb-1">Les techniques de plaidoirie</h4>
+<p class="text-slate-500 text-xs line-clamp-2">L'art de convaincre : manuel de rhétorique et stratégie judiciaire.</p>
+</div>
+<div class="mt-2">
+<button class="text-primary text-xs font-bold flex items-center gap-1 group">
+                            Consulter <span class="material-symbols-outlined text-[14px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="flex gap-4 bg-[#161b26]/50 p-3 rounded-xl border border-white/5 items-center">
+<div class="w-24 h-32 shrink-0 bg-center bg-cover rounded-lg shadow-lg border border-white/10" data-alt="Legal archives collection image" style='background-image: url("Recueil.jpg");'></div>
+<div class="flex flex-col justify-between py-1 h-full">
+<div>
+<h4 class="text-white font-bold text-base leading-snug mb-1">Recueil d’actes de procédure</h4>
+<p class="text-slate-500 text-xs line-clamp-2">Compilation de modèles d'actes pour avocats et magistrats.</p>
+</div>
+<div class="mt-2">
+<button class="text-primary text-xs font-bold flex items-center gap-1 group">
+                            Consulter <span class="material-symbols-outlined text-[14px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer Note -->
+<footer class="mt-12 py-8 border-t border-white/5 text-center">
+<p class="text-slate-600 text-[10px] uppercase tracking-[0.2em]">Cabinet de Maître Barthélemie Ngwangu</p>
+<p class="text-slate-700 text-[10px] mt-2">© 2024 • Tous droits réservés</p>
+</footer>
+</main>
+<!-- Bottom Navigation Bar (iOS Style) -->
+<div class="fixed bottom-0 left-0 right-0 glass-nav border-t border-white/5 z-50">
+<div class="flex justify-around items-center h-20 max-w-md mx-auto">
+    <a href="domaine.html">
+<button class="flex flex-col items-center gap-1 text-slate-500">
+<span class="material-symbols-outlined">gavel</span>
+<span class="text-[10px] font-medium">Cabinet</span>
+</button>
+</a>
+<button class="flex flex-col items-center gap-1 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">auto_stories</span>
+<span class="text-[10px] font-medium">Ouvrages</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-slate-500">
+<span class="material-symbols-outlined">event_note</span>
+<span class="text-[10px] font-medium">Actualités</span>
+</button>
+<a href="contact.html">
+<button class="flex flex-col items-center gap-1 text-slate-500">
+<span class="material-symbols-outlined">mail</span>
+<span class="text-[10px] font-medium">Contact</span>
+</button>
+</a>
+</div>
+</div>
+</body></html>

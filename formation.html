@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Formations &amp; Conférences - Maître Ngwangu</title>
+<style>
+    .menu {
+            background-color: #101622;
+            padding: 15px 0;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }   
+
+        .menu a {
+            color: #289bcd;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 14px;
+            border-radius: 6x;
+            transition: 0.3s;
+        }   
+
+        .menu a:hover {
+            background-color: #101622;
+            color: rgb(178, 225, 240);
+        }
+
+        .menu a.active {
+            background-color: #101622;
+            color: rgb(102, 203, 240);
+           }
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+     <nav class="menu">
+        <ul>
+            <li><a href="accueil.html"
+    class="active">Accueil</a></li>
+            <li><a href="à propos.html"
+    class="active">à propos</a></li>
+            <li><a href="domaine.html"
+    class="active">domaine</a></li>
+            <li><a href="formation.html"
+    class="active">formation</a></li>
+            <li><a href="ouvrages.html"
+    class="active">ouvrages</a></li>
+            <li><a href="contact.html"
+    class="active">contact</a></li>
+            </ul>
+        </nav>
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- TopAppBar -->
+<nav class="sticky top-0 z-50 flex items-center bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md p-4 justify-between border-b border-slate-200 dark:border-slate-800">
+<div class="flex size-10 shrink-0 items-center justify-center cursor-pointer hover:bg-slate-200 dark:hover:bg-slate-800 rounded-full transition-colors">
+<span class="material-symbols-outlined text-2xl">arrow_back_ios_new</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-tight flex-1 text-center">Formations &amp; Conférences</h2>
+<div class="flex w-10 items-center justify-end">
+<button class="flex items-center justify-center rounded-lg h-10 w-10 bg-transparent hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined">share</span>
+</button>
+</div>
+</nav>
+<main class="flex-1 pb-24">
+<!-- HeaderImage / Hero -->
+<div class="@container">
+<div class="@[480px]:px-4 @[480px]:py-6">
+<div class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-slate-900 @[480px]:rounded-xl min-h-[260px] relative" data-alt="Modern law library with dark wood and warm lighting" style='background-image: linear-gradient(to top, rgba(16, 22, 34, 0.95) 0%, rgba(16, 22, 34, 0.2) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAgR4y4nQJKsiuxnJd3PVe32F62-e3c4dBdumLjfoJ19ftwCVKl4zd7wVUozIdWEhx3Gf_Skvz-IA4gIEWtdtejNCr1vgAoQdOZ5Miiqv7zUEnTtNvkLitMi7y5df5GRvZrZbfTzGp36CEB0bQkstRnJdAshj89gkS5MUNMAxUHhMuwSIGghTCaAy2_wRWeSeZhJB7aKreiY2ad16phppKSdY1onCHJP-SoGNv1NLBLpQ67uVuWZsHqrAQ3v5d0g9xBFvqLxL6ch5I");'>
+<div class="flex flex-col p-6 gap-2">
+<span class="text-primary font-semibold text-xs uppercase tracking-widest">Maître Barthélemie Ngwangu</span>
+<h1 class="text-white text-3xl font-bold leading-tight">Excellence en Pratique Judiciaire</h1>
+<p class="text-slate-300 text-sm max-w-md">Programmes d'élite pour avocats et magistrats auprès de la Cour d'appel.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Tabs -->
+<div class="mt-4 sticky top-[72px] bg-background-light dark:bg-background-dark z-40">
+<div class="flex border-b border-slate-200 dark:border-slate-800 px-4 gap-6 overflow-x-auto no-scrollbar">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-primary text-primary pb-3 pt-4 whitespace-nowrap" href="#">
+<p class="text-sm font-bold tracking-wide">Tout</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-transparent text-slate-500 dark:text-slate-400 pb-3 pt-4 whitespace-nowrap" href="#">
+<p class="text-sm font-bold tracking-wide">Procédure</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-transparent text-slate-500 dark:text-slate-400 pb-3 pt-4 whitespace-nowrap" href="#">
+<p class="text-sm font-bold tracking-wide">Plaidoirie</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-transparent text-slate-500 dark:text-slate-400 pb-3 pt-4 whitespace-nowrap" href="#">
+<p class="text-sm font-bold tracking-wide">Conférences</p>
+</a>
+</div>
+</div>
+<!-- BodyText -->
+<div class="px-4 py-6">
+<p class="text-slate-600 dark:text-slate-300 text-base font-normal leading-relaxed">
+                    Découvrez nos cycles de formation continue accrédités, animés par des experts de la haute juridiction. Chaque session est conçue pour approfondir la maîtrise des mécanismes procéduraux complexes.
+                </p>
+</div>
+<!-- SectionHeader -->
+<div class="flex items-center justify-between px-4 pb-2 pt-2">
+<h3 class="text-lg font-bold leading-tight tracking-tight">Prochaines Sessions</h3>
+<a href="contact.html">
+<span class="text-primary text-xs font-bold uppercase cursor-pointer">Voir calendrier</span>
+</a>
+</div>
+<!-- Training Cards List -->
+<div class="flex flex-col gap-4 px-4 py-2">
+<!-- Card 1 -->
+<div class="bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-xl p-4 flex flex-col gap-3 shadow-sm">
+<div class="flex justify-between items-start">
+<div class="flex flex-col">
+<span class="bg-primary/10 text-primary text-[10px] font-bold px-2 py-1 rounded w-fit mb-2 uppercase">Procédure en Cassation</span>
+<h4 class="font-bold text-lg leading-tight">Techniques du Pourvoi Civil</h4>
+</div>
+<div class="flex flex-col items-end">
+<span class="text-primary font-bold text-lg">14</span>
+<span class="text-[10px] text-slate-500 uppercase">Avr. 2026</span>
+</div>
+</div>
+<div class="flex items-center gap-4 text-xs text-slate-500 dark:text-slate-400">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span>6 Heures</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span data-location="Paris">Kinshasa / Limete</span>
+</div>
+</div>
+<div class="h-px bg-slate-100 dark:bg-slate-800 my-1"></div>
+<div class="flex items-center justify-between">
+<p class="text-xs text-slate-500 italic">8 places restantes</p>
+<span class="material-symbols-outlined text-primary">arrow_forward</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-xl p-4 flex flex-col gap-3 shadow-sm">
+<div class="flex justify-between items-start">
+<div class="flex flex-col">
+<span class="bg-emerald-500/10 text-emerald-500 text-[10px] font-bold px-2 py-1 rounded w-fit mb-2 uppercase">Plaidoirie</span>
+<h4 class="font-bold text-lg leading-tight">L'Art de Convaincre : Maîtrise Oratoire</h4>
+</div>
+<div class="flex flex-col items-end">
+<span class="text-primary font-bold text-lg">22</span>
+<span class="text-[10px] text-slate-500 uppercase">Mars 2026</span>
+</div>
+</div>
+<div class="flex items-center gap-4 text-xs text-slate-500 dark:text-slate-400">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span>4 Heures</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">videocam</span>
+<span>Visioconférence</span>
+</div>
+</div>
+<div class="h-px bg-slate-100 dark:bg-slate-800 my-1"></div>
+<div class="flex items-center justify-between">
+<p class="text-xs text-slate-500 italic">Complet (Liste d'attente)</p>
+<span class="material-symbols-outlined text-slate-400">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Expert Profile Snippet -->
+<div class="mx-4 mt-8 p-6 rounded-xl bg-slate-900 text-white flex items-center gap-4 border border-slate-800">
+<div class="size-14 rounded-full bg-slate-800 flex items-center justify-center shrink-0 border-2 border-primary/30 overflow-hidden">
+<img alt="Maître Barthélemie Ngwangu portrait" class="w-full h-full object-cover" data-alt="Professional headshot of a male lawyer in a dark suit" src="Ngangu.jpg"/>
+</div>
+<div>
+<h5 class="font-bold text-sm">Maître Barthélemie Ngwangu</h5>
+<p class="text-xs text-slate-400 leading-snug">Avocat près à la Cour d'appel. Expert formateur agréé depuis 15 ans.</p>
+</div>
+</div>
+</main>
+<!-- Fixed CTA Button Area -->
+<div class="fixed bottom-0 left-0 right-0 p-4 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-t border-slate-200 dark:border-slate-800">
+   <a href="contact.html"> 
+<button class="w-full bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-xl shadow-lg shadow-primary/20 flex items-center justify-center gap-2 transition-transform active:scale-[0.98]">
+<span class="material-symbols-outlined">edit_note</span>
+                Participer à une formation
+            </button>
+        </a>
+</div>
+</div>
+<style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</body></html>

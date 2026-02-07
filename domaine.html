@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Domaines d'Expertise - Maître Barthélemie Ngwangu</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+    .menu {
+            background-color: #101622;
+            padding: 15px 0;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }   
+
+        .menu a {
+            color: #289bcd;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 14px;
+            border-radius: 6x;
+            transition: 0.3s;
+        }   
+
+        .menu a:hover {
+            background-color: #101622;
+            color: rgb(178, 225, 240);
+        }
+
+        .menu a.active {
+            background-color: #101622;
+            color: rgb(102, 203, 240);
+           }
+        body {
+            font-family: 'Public Sans', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .expertise-card-glow {
+            box-shadow: 0 0 15px rgba(17, 82, 212, 0.1);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white min-h-screen flex flex-col">
+     <nav class="menu">
+        <ul>
+            <li><a href="accueil.html"
+    class="active">Accueil</a></li>
+            <li><a href="à propos.html"
+    class="active">à propos</a></li>
+            <li><a href="domaine.html"
+    class="active">domaine</a></li>
+            <li><a href="formation.html"
+    class="active">formation</a></li>
+            <li><a href="ouvrages.html"
+    class="active">ouvrages</a></li>
+            <li><a href="contact.html"
+    class="active">contact</a></li>
+            </ul>
+        </nav>
+<!-- Top Navigation Bar -->
+<nav class="sticky top-0 z-50 flex items-center bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md p-4 border-b border-slate-200 dark:border-slate-800">
+<div class="flex items-center justify-center size-10 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-2xl">arrow_back_ios_new</span>
+</div>
+<h1 class="flex-1 text-center text-lg font-bold tracking-tight pr-10">Domaines d'Expertise</h1>
+</nav>
+<!-- Header Section -->
+<header class="px-5 pt-8 pb-4">
+<div class="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-wider mb-4">
+            Expertise de la Cour d'appel
+        </div>
+<h2 class="text-3xl font-bold leading-tight mb-3">Maîtrise du Droit et Excellence Judiciaire</h2>
+<p class="text-slate-600 dark:text-slate-400 text-base leading-relaxed">
+            Un accompagnement stratégique fondé sur une connaissance rigoureuse des procédures et une pratique confirmée devant les hautes juridictions.
+        </p>
+</header>
+<!-- Expertise Grid -->
+<main class="flex-1 px-4 py-4 space-y-4">
+<!-- Grid Container -->
+<div class="grid grid-cols-1 gap-4">
+<!-- Area 1: Procédure Judiciaire -->
+<div class="group relative overflow-hidden rounded-xl bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 p-5 expertise-card-glow transition-all active:scale-[0.98]">
+<div class="flex items-start justify-between">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">gavel</span>
+</div>
+<div class="text-primary/40 font-display font-black text-4xl select-none">01</div>
+</div>
+<h3 class="text-xl font-bold mb-2">Procédure Judiciaire Congolaise</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed mb-4">
+                    Maîtrise approfondie des rouages du système judiciaire en RDC, assurant une navigation sereine dans les méandres administratifs et légaux.
+                </p>
+<div class="h-1 w-12 bg-primary rounded-full"></div>
+</div>
+<!-- Area 2: Incidents de Procédure -->
+<div class="group relative overflow-hidden rounded-xl bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 p-5 expertise-card-glow transition-all active:scale-[0.98]">
+<div class="flex items-start justify-between">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">error_outline</span>
+</div>
+<div class="text-primary/40 font-display font-black text-4xl select-none">02</div>
+</div>
+<h3 class="text-xl font-bold mb-2">Incidents de Procédure</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed mb-4">
+                    Gestion experte des exceptions, des nullités et des incidents susceptibles d'orienter l'issue d'un litige en faveur du client.
+                </p>
+<div class="h-1 w-12 bg-primary rounded-full"></div>
+</div>
+<!-- Area 3: Techniques de Plaidoirie -->
+<div class="group relative overflow-hidden rounded-xl bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 p-5 expertise-card-glow transition-all active:scale-[0.98]">
+<div class="flex items-start justify-between">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">campaign</span>
+</div>
+<div class="text-primary/40 font-display font-black text-4xl select-none">03</div>
+</div>
+<h3 class="text-xl font-bold mb-2">Techniques de Plaidoirie</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed mb-4">
+                    L'art de l'éloquence au service de la vérité. Une argumentation structurée et percutante devant les cours et tribunaux.
+                </p>
+<div class="h-1 w-12 bg-primary rounded-full"></div>
+</div>
+<!-- Area 4: Contentieux & Rédaction -->
+<div class="group relative overflow-hidden rounded-xl bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 p-5 expertise-card-glow transition-all active:scale-[0.98]">
+<div class="flex items-start justify-between">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">history_edu</span>
+</div>
+<div class="text-primary/40 font-display font-black text-4xl select-none">04</div>
+</div>
+<h3 class="text-xl font-bold mb-2">Contentieux &amp; Rédaction</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed mb-4">
+                    Précision chirurgicale dans la rédaction d'actes juridiques, de conclusions et de mémoires en cassation pour sécuriser vos droits.
+                </p>
+<div class="h-1 w-12 bg-primary rounded-full"></div>
+</div>
+<!-- Area 5: Formation Juridique -->
+<div class="group relative overflow-hidden rounded-xl bg-white dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 p-5 expertise-card-glow transition-all active:scale-[0.98]">
+<div class="flex items-start justify-between">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">school</span>
+</div>
+<div class="text-primary/40 font-display font-black text-4xl select-none">05</div>
+</div>
+<h3 class="text-xl font-bold mb-2">Formation Professionnelle</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed mb-4">
+                    Transmission du savoir et renforcement des capacités pour les professionnels du droit et les entreprises.
+                </p>
+<div class="h-1 w-12 bg-primary rounded-full"></div>
+</div>
+</div>
+<!-- Professional Background Highlight -->
+<div class="mt-8 mb-10 overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-800/40 p-6 border border-slate-200 dark:border-slate-700">
+<h4 class="text-lg font-bold mb-2 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">verified</span>
+                Engagement d'Excellence
+            </h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">
+                Chaque dossier est traité avec la rigueur analytique exigée par la Cour d'appel, garantissant une défense de haut niveau technique.
+            </p>
+</div>
+</main>
+<!-- Sticky Bottom CTA -->
+<div class="sticky bottom-0 p-4 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-lg border-t border-slate-200 dark:border-slate-800">
+    <a href="contact.html">
+<button class="w-full bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-xl shadow-lg shadow-primary/20 flex items-center justify-center gap-2 transition-transform active:scale-[0.97]">
+<span class="material-symbols-outlined text-xl">contact_page</span>
+            Prendre rendez-vous
+        </button>
+    </a>
+</div>
+</body></html>
